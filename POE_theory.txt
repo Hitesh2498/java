@@ -1,0 +1,133 @@
+matrix                         :-  a collection of numbers arranged into a fixed number of rows and columns / 2D array
+
+instance variable              :-An instance variable is a variable that is specific to a certain object
+
+method                         :-a block of code which only runs when it is called.public class Main                                                                  
+                                                         {
+                                                     static void myMethod() {
+                                                        // code to be executed
+                                                                            }
+                                                                               }
+                                                            has return type
+                                                       cannot be same name as class
+
+
+objects                         :-An object is an instance of a class. 
+                                                   class_name object_name = new class_name();
+
+class                           :- A class is a group of objects which have common properties.
+                                                              public class class_name
+                                                                                   {
+                                                                                   }
+static variable                 :-variable is declared as static no need to create object
+
+static block                    :-a set of instructions that is run only once when a class is loaded into memory.
+
+static method                   :-a method that is part of a class rather than an instance of that class
+
+all inheritance                 :-one object acquires all the properties and behaviors of a parent object. For Code  
+                                  Reusability  
+                                  Class: A class is a group of objects which have common properties.
+                                  Sub Class/Child Class: Subclass is a class which inherits the other class. 
+                                  Super Class/Parent Class: Superclass is the class from where a subclass inherits the               
+                                  features (refer diagram :- https://www.javatpoint.com/inheritance-in-java)
+                                       class Subclass-name extends Superclass-name  
+                                                    {  
+                                                       //methods and fields  
+                                                    }  
+
+single inheritance               :-When a class inherits another class, it is known as a single inheritance.
+
+multilevel inheritance           :-When there is a chain of inheritance, it is known as multilevel inheritance
+
+hierarchical inheritance         :-When two or more classes inherits a single class, it is known as hierarchical 
+                                   inheritance.
+
+multilevel inheritance           :-multiple inheritance is not supported in java
+
+hybrid inheritance               :-combination of two or more types of inheritance is called hybrid inheritance
+
+abstract class                   :-A class which is declared with the abstract keyword is known as an abstract class in     
+                                    Java 
+
+                                   declared with an abstract keyword.
+                                   can have abstract and non-abstract methods.
+                                   can have constructors and static methods also.
+                                   abstract class A{}
+  
+abstract method                   :-method which is declared as abstract and does not have  
+                                    implementation 
+                                   abstract void printStatus()
+
+user defined exception            :-
+
+array                             :-Java array is an object which contains elements of a similar data type.
+                                     int arr[]={33,3,4,5};
+
+command line arguments            :-The java command-line argument is an argument i.e. passed at the time of running               
+                                     the java program.
+                                    The arguments passed from the console can be received in the java program and it    
+                                    can be used as an input.
+
+interface                         :-The interface in Java is a mechanism to achieve abstraction. There can be only           
+                                    abstract methods in the Java interface, not method body. It is used to achieve  
+                                      abstraction and multiple inheritance in Java.
+                                           interface <interface_name>{  
+      
+                                           // declare constant fields  
+                                           // declare methods that abstract   
+                                           // by default.  
+                                                           }  
+constructor overloading           :- a constructor is a block of codes similar to the method. It is called when an  
+                                     instance of the class is created. At the time of calling constructor, memory for 
+                                     the object is allocated in the memory.calls a default constructor if there is no  
+                                     constructor available in the class
+                                     Constructor name must be the same as its class name
+                                     A Constructor must have no explicit return type
+                                     A Java constructor cannot be abstract, static, final, and synchronized
+
+                                     2 TYPES 
+                                    (default constructor) :doesn't have any parameter.used to provide the default      
+                                                           values to the object like 0, null,
+                                            <class_name>(){}  
+                                     (parameterized constructor):-A constructor which has a specific number of  
+                                                                parameters, A constructor which has a specific number  
+                                                                of parameters
+                                             <class_name>(data_type name, data_type name){}
+
+                                     CONSTRUCTOR OVERLOADING :-Constructor overloading in Java is a technique of 
+                                     having more than one constructor with different parameter lists. They are 
+                                     arranged in a way that each constructor performs a different task, differentiated 
+                                     by the compiler by the number of parameters in the list and their types.
+
+function/ method overloading      :-same name same class and different parameters
+
+function/method overriding        :-same name different class 
+
+oops feature                      :-1.object :- Any entity that has state and behavior is known as an object
+                                    2.class :- Collection of objects is called class. It is a logical entity
+                                    3.Inheritance :- When one object acquires all the properties and behaviors of a parent  
+                                                     object
+                                    4.polymorphism :- If one task is performed in different ways, it is known as 
+                                                       polymorphism.we use method overloading and method overriding to 
+                                                       achieve polymorphism
+                                    5.Abstraction :- Hiding internal details and showing functionality is known as  
+                                                     abstraction
+                                    6.Encapsulation :-Binding (or wrapping) code and data together into a single unit are 
+                                                      known as encapsulation.
+what is java                      :-Java is a high-level and purely object oriented 
+                                    programming language. It is platform independent, robust, secure, and multithreaded 
+                                    programming language which makes it popular among other OOP languages. It is widely     
+                                    used for software, web, mobile application development, 
+
+AWT                               :-AWT stands for Abstract Window Toolkit. It is a platform-dependent API to  
+                                    develop GUIIt is heavy-weight in use because it is generated by the system’s 
+                                    host operating system. It contains a large number of classes and methods, 
+                                    which are used for creating and managing GUI. AWT provides comparatively less powerful  
+                                    components.
+
+SWING                             :- Swing is a lightweight Java graphical user interface (GUI) that is used to   
+                                     create various applications. Swing has platform-independent components. It 
+                                     enables the user to create buttons and scroll bars. Swing includes packages 
+                                     for creating desktop applications in Java. Swing components are written in      
+                                     Java language. It is a part of Java Foundation Classes(JFC). Swing provides more powerful components.

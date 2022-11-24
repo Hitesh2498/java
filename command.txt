@@ -1,0 +1,107 @@
+
+arr.length                    :- length of array / string (number of charecter)
+
+implements                    :- to access interface method it must be implemented by another class with implement keyword
+
+interface                     :-used to declare a special type of class that only contains abstract methods
+
+extends                       :-indicates that a class is inherited from another class
+
+import java.awt.*;            :- import all classes from awt package , borderlayout, button
+
+import javax.swing.*;         :- import all the classes from swing package for building GUI jbutton, jframe
+
+import java.util.Scanner;     :-The Scanner class is used to get user input
+
+import java.lang.String;      :-All string literals in Java programs, such as "abc", are implemented using this class
+
+import java.io.*;             :-This package provides for system input and output through data streams
+
+jframe                        :-top-level container that provides a window on the screen
+
+jpanel                        :- a container that can store a group of components. organize components in it
+
+jlabel                        :-placing text in a container / box
+
+jtextfield                    :-a text component that allows the editing of a single line text.
+
+jbutton                       :-create a labeled button
+
+jcheckbox                     :-used to create a checkbox
+
+jtextarea                     :-Creates a textarea with the specified number of rows&columns that displays no textinitially
+
+jradiobutton                  :- It is used to choose one option from multiple options
+
+container                     :-A container can store instances of any Java class (object)
+
+new keyword                   :-to create an instance of a user-defined object type and a constructor function.
+
+.setbounds                    :-used to define the bounding rectangle of a component
+
+BorderLayout                  :- used to arrange the components in five regions: north, south, east, west, and center
+
+.setPreferredSize             :-Sets the preferred size of this component.If preferredSize is null it will be asked for size
+
+Dimension                     :-width and height of a component
+
+.addActionListener            :-notified whenever you click on the button or menu item
+
+.setSize                      :- class is used to set the size of a vector
+
+.setVisible                   :-setVisible(true) method makes the frame appear on the screen
+
+.setfont                      :-To change JLabel font
+
+.settitle                     :- you can set the JFrame 
+
+.settext                      :-substitutes the characters sText for the text in the text field
+
+setlayout                     :-to change the layout manager,
+
+Integer.parseInt              :-returns the int value, represented by the argument in decimal equivalent.
+
+Integer.toHexString           :-built-in function, returns string as hexadecimal int (base 16)
+
+Integer.toOctalString         :-built-in function, returns string as octal int (base 8)
+
+Integer.toBinaryString        :-built-in function, returns string as binary int (base 2)
+
+setDefaultCloseOperation      :-used to specify one of several options for the close button.
+
+GridLayout                    :-used to arrange the components in a rectangular grid
+
+for each loop                 :-for loop for array, for (type var : array) 
+                                                         { 
+                                                           statements using var;
+                                                         }
+
+try                           :-allows you to define a block of code to be tested for errors while it is being executed.
+
+catch                         :-allows you to define a block of code to be executed, if an error occurs in the try block.
+
+peek                          :-used to retrieve or fetch first element of the stack
+
+remove                        :-is used to remove a particular element from a Set.
+
+JOptionPane.showInputDialog   :-we can prompt the user for input while customizing our dialog window
+
+Thread.currentThread()        :-provides reference to currently executing Thread
+
+FileOutputStream              :-writing data/streams of raw bytes to file or storing data to file
+
+DataOutputStream              :-write primitive Java data types to the output stream
+
+FileInputStream               :- used for reading byte-oriented data (streams of raw bytes) such as image data, audio
+
+DataInputStream               :-class allows an application to read primitive data from the input stream
+
+getMessage()                  :-Throwable class,used to return a detailed message of the Throwable object,can be null
+
+.getContentPane()             :-retrieves the content pane layer so that you can add an object to it
+
+setHorizontalAlignment        :-content in jtextfile is default left aligned but you can change this using this command
+
+SwingConstants                :- used for positioning and orienting components on the screen
+
+super.                        :- refers to superclass (parent) objects
